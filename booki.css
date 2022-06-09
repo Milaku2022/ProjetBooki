@@ -1,0 +1,223 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 90%;
+    margin: auto;
+    font-family: 'raleway' , sans-serif;
+}
+
+/* header */
+header{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+img{
+    width: 100px;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+    padding:20px;
+    
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:active{
+    color: #0065FC;
+    border-top: 1px solid #0065FC;
+}
+/* end header */
+
+/* first part  */
+h1{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+/* formulaire */
+.formulaire
+ {
+     display:flex;
+     margin-top: 20px;
+     margin-bottom: 10px;
+
+ }
+
+ .formulaire i{
+     border: 1px solid #F2F2F2;
+     background-color: #F2F2F2;
+     border-top-left-radius: 20px 20px;
+    border-bottom-left-radius: 20px 20px;
+    padding: 20px;
+     
+ }
+ input {
+     font-weight: bold;
+     color: black;
+     font-family: 'raleway' , sans-serif;
+     padding: 15px;
+     font-size: larger;
+     border-left: none;
+     border-right: none;
+     border-bottom: 1px solid #F2F2F2;
+     border-top:1px solid #F2F2F2;
+ }
+
+ .rechercher{
+     background-color: #0065FC;   
+    color: white;
+    border: 1px solid #0065fc;
+    border-top-right-radius: 20px 20px;
+    border-bottom-right-radius: 20px 20px;
+
+ }
+/* end formulaire */
+/* filtres */
+.filtre {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display:flex;
+    
+
+}
+ .Eco a{
+     display: flex;
+     margin-right: 20px;
+     align-items: center;
+     text-align: center;
+     justify-content: center;
+     border-radius: 30px;
+     border: 2px solid #F2F2F2;
+     border-left: none;
+   
+     
+ }
+
+ h3{
+    margin-right: 20px; 
+    display: flex;
+    align-items: center;
+    padding:0;
+    
+
+ }
+
+ .Eco i{
+     background-color: #DEEBFF;
+     border:2px solid #DEEBFF;
+     border-radius: 25px;
+     color: #0065FC;
+     width: 52px;
+     height: 52px;
+     display: flex;
+justify-content: center;
+align-items: center;  
+     
+ }
+
+ .nomfiltre {       
+     
+     padding: 10px;       
+     height:50px;
+ }
+
+ .filtre a:hover{
+     background-color: #DEEBFF;
+     border:3px solid #0065FC;
+     border-radius: 30px;
+ }
+
+/* end filtre */
+
+ .information {
+     
+     display: flex;
+
+align-items: center;
+margin-bottom: 40px;
+
+ }
+
+ .information i {
+     border: 1px solid #F2F2F2;
+     border-radius: 50px;
+     color:#0065FC;
+     width: 30px;
+     height: 30px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+ }
+
+ /* end first part */
+ /* second part */
+ #hebergements{
+     width: 60%;
+     background-color: #F2F2F2;
+     border-radius: 20px;
+     padding: 30px;
+     
+
+ }
+
+ h2{
+     
+     margin-bottom: 30px;
+ }
+
+.card{
+     width: 30%;
+     background-color: white;
+     border-radius: 20px;
+     box-shadow: 0px 0px 15px -7px #7D7D7D;
+    
+     
+     
+ }
+
+ .card img{
+
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+     border: 5px solid white ;
+     border-radius: 20px 20px 0px 0px;   
+    
+
+ }
+
+ 
+ .card-body{
+     background-color: white;
+     border: 5px solid white ;
+     border-radius: 0px 0px 20px 20px;
+     padding-left: 10px;
+     padding-bottom: 5px;
+     line-height: 1.5;
+ }
+
+ .lign{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+     
+ }
+
+/* aside */
+aside{
+    
+}
