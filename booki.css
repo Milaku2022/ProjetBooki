@@ -4,30 +4,34 @@
     padding: 0;
 }
 body{
-    width: 90%;
-    margin: auto;
+    
     font-family: 'raleway' , sans-serif;
 }
 
 /* header */
+/* logo */
 header{
 
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    padding-top: 30px;
     margin-bottom: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    
 }
 img{
     width: 100px;
 }
-
-ul{
+/* nav */
+nav ul{
     display: flex;
 }
 
-li{
+nav li{
+    
     list-style-type: none;
-    padding:20px;
+    padding: 20px;
     
 }
 
@@ -41,6 +45,12 @@ a:active{
     border-top: 1px solid #0065FC;
 }
 /* end header */
+
+main{
+    width: 90%;
+    margin: auto;
+   
+}
 
 /* first part  */
 h1{
@@ -174,7 +184,7 @@ margin-bottom: 40px;
 
  }
 
- h2{
+ #hebergements h2{
      
      margin-bottom: 30px;
  }
@@ -220,4 +230,155 @@ margin-bottom: 40px;
 /* aside */
 aside{
     
+    width: 35%;
+     background-color: #F2F2F2;
+     border-radius: 20px;
+     padding: 30px;
 }
+
+.annonces{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.pop{
+    display:flex;
+    justify-content: space-between;
+}
+
+.cardpop{
+         background-color: white;
+     border-radius: 20px;
+      box-shadow: 0px 0px 15px -7px #7D7D7D;
+    display: flex;
+    margin-top: 30px;
+
+}
+.cardpop .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    border-radius: 20px;
+
+
+}
+.cardpop img{
+    width: 40%;
+  height: 190px;
+  object-fit: cover;
+     border: 5px solid white ;
+     border-radius: 20px 0px 0px 20px; 
+}
+
+/* end aside */
+/* section activity */
+.bloc{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.cardport{
+    width: 20%;
+    height: 450px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px -7px #7D7D7D;
+}
+
+.cardport img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.cardtitle{
+    padding: 10px;
+
+}
+.carduo{
+    width: 20%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+/* card3-3 */
+.fort img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+.fort{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px -7px #7D7D7D;
+    
+}
+/* card3-4 */
+.frioul{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px -7px #7D7D7D;
+}
+.frioul img{
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+/* card3-5 */
+.dame{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px -7px #7D7D7D;
+}
+.dame img{
+    width: 100%;
+    height: 145px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+/* card3-6 */
+.parc img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+.parc{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px -7px #7D7D7D;
+}
+
+
+
+/* footer */
+
+footer{
+    background-color: #F2F2F2;
+    padding: 50px;
+    display:flex;
+    margin-top:50px;
+  }
+
+footer li{
+    list-style-type: none;
+}
+
+.about,.nosheber,.assist{
+    width: 30%;
+}
+ footer ul{
+     line-height: 2;
+ }
+ footer h3{
+     margin-bottom: 20px;
+ }
