@@ -1,3 +1,7 @@
+:root{
+    --white: #ffffff;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -15,15 +19,13 @@ body{
 /* header */
 /* logo */
 header{
-
     display: flex;
     justify-content: space-between;
-  
     margin-bottom: 30px;
     padding-left: 5%;
     padding-right: 5%;
-    
 }
+
 img{
     width: 100px;
 }
@@ -32,22 +34,21 @@ nav ul{
     display: flex;
 }
 
-nav li{
-    
-    list-style-type: none;
-    padding: 20px;
-    
+nav li{    
+    list-style-type: none;     
 }
+
 nav a{
-  
+    display:inline-block;
     border-top: 2px solid transparent;
+    padding: 20px;
 }
 a {
     color: black;
     text-decoration: none;
 }
 
-a:active{
+nav a:active{
     color: #0065FC;
     border-top: 2px solid #0065FC;
 }
@@ -75,15 +76,20 @@ h1{
      display:flex;
      margin-top: 20px;
      margin-bottom: 10px;
+     justify-content: space-between;
+     border-bottom: 1px solid #F2F2F2;
+     border-top: 1px solid #F2F2F2;
+     border-radius: 20px;
+     width: 30%;
 
  }
 
  .formulaire i{
-     border: 1px solid #F2F2F2;
      background-color: #F2F2F2;
      border-top-left-radius: 20px 20px;
-    border-bottom-left-radius: 20px 20px;
-    padding: 20px;
+     border-bottom-left-radius: 20px 20px;
+     padding: 20px;
+     font-size: 20px;
      
  }
  input {
@@ -92,19 +98,25 @@ h1{
      font-family: 'raleway' , sans-serif;
      padding: 15px;
      font-size: larger;
-     border-left: none;
-     border-right: none;
-     border-bottom: 1px solid #F2F2F2;
-     border-top:1px solid #F2F2F2;
+     border: none;
+     width: 100%;
  }
 
  .rechercher{
-     background-color: #0065FC;   
+    font-weight: bold;
+    font-family: 'raleway' , sans-serif;
+    padding: 15px;
+    font-size: larger;
+    background-color: #0065FC;   
     color: white;
     border: 1px solid #0065fc;
     border-top-right-radius: 20px 20px;
     border-bottom-right-radius: 20px 20px;
+    
 
+ }
+ .loupe{
+     display: none;
  }
 /* end formulaire */
 /* filtres */
@@ -144,7 +156,8 @@ h1{
      height: 52px;
      display: flex;
      justify-content: center;
-     align-items: center;       
+     align-items: center; 
+     font-size: 20px;      
  }
 
  .nomfiltre {    
@@ -208,8 +221,8 @@ h1{
 
  
  .card-body{
-     background-color: white;
-     border: 5px solid white ;
+     background-color: var(--white);
+     border: 5px solid var(--white);
      border-radius: 0px 0px 20px 20px;
      padding-left: 10px;
      padding-bottom: 5px;
@@ -242,9 +255,9 @@ aside{
 }
 
 .cardpop{
-         background-color: white;
-     border-radius: 20px;
-      box-shadow: 0px 0px 15px -7px #7D7D7D;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px -7px #7D7D7D;
     display: flex;
     margin-top: 30px;
 
@@ -383,15 +396,28 @@ footer li{
  /*responsive tablette max with 992 px*/
 
  @media screen and (max-width: 992px){
-
-
-.card-body, footer, .filtre{
-    font-size: small;
+.annonces{
+        flex-direction: column-reverse;
 }
+.formulaire{
+        width: 50%;
+}  
+#hebergements, aside{
+    width: 100%;
+    margin-bottom: 20px;
+} 
 
+.populary{
+    display:flex;
+    justify-content: space-between;
+} 
+aside a{
+    width: 30%;
+}
 .cardpop img{
     
-  height: 160px;
+  height: 130px;
+  width: 50%;
   
 }
 
@@ -411,44 +437,113 @@ footer li{
 
 @media screen and (max-width: 768px){
 
+header{
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+nav, nav a{
+    width: 100%;
+    border-bottom: 2px solid transparent;
+    border-top: none;
+}
+nav li{
+    width: 50%;
+    text-align: center;
+    
+}
+nav a:hover, nav a:active{       
+       border-top: none;
+       border-bottom: 2px solid #0065FC;
+}
+.rechercher{
+    display: none;
+}
+.formulaire{
+    width: 100%;
+}
+.loupe{
+    display: block; 
+    background-color: #0065FC; 
+    border: 2px solid #0065fc; 
+    border-radius: 20px;    
+}
+.loupe i{
+    background-color: #0065FC;  
+    color: white;
+    border: 2px solid #0065fc;
+    border-radius: 20px;
+    padding: 15px;
+}
 .small{
     display: block;
 }
 .medium{
-    display: none;}
+    display: none;
+}
 .filtre{
-   flex-wrap: wrap;
-   justify-content: center;
+     flex-wrap: wrap;
+     justify-content: flex-start;
 }
 .filtre a{
     margin-top: 5px;
 }
-.annonces{
+.populary{
     flex-direction: column;
 }
+aside{
+    border-radius: 0;
+}
+aside a{
+    width: 100%;
+}
+.populary .card-body{
+    margin-left: 20px;
+}
+.cardpop img{
+    width: 30%;
+    border-radius: 20px 0px 0px 20px;
+}
+#hebergements{
+    background-color: transparent;
+}
+.card img, .bloc img{
+    height: 150px;
+}
 
-#hebergements, aside{
+.lign{
+    flex-direction: column;
+    margin-bottom: 0;
+}
+.card{
     width: 100%;
     margin-bottom: 20px;
 }
-aside a{
-    width: 30%;
+.annonces{
+    margin-bottom: 0;
+}
+#activity{
+    padding: 30px;
+}
+.bloc{
+    flex-direction: column;  
 }
 
-.populary{
-    display:flex;
-    justify-content: space-between;
-}
-
-.cardpop{
-    flex-direction: column;
-}
-.cardpop img{
+.cardport, .fort, .frioul, .dame, .parc{
     width: 100%;
-    border-radius: 20px 20px 0px 0px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.carduo{
+    width: 100%;
 }
 footer{
-    justify-content: space-between;
+    flex-direction: column;
+}
+.about,.nosheber,.assist{
+    width: 100%;
+    margin-bottom: 30px;
 }
 }
 

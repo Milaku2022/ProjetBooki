@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Booki</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
-        <link rel="stylesheet" href="booki.css">
-        <script src="https://kit.fontawesome.com/0832316b28.js" crossorigin="anonymous"></script>
-    </head>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booki</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="booki.css">
+    <script src="https://kit.fontawesome.com/0832316b28.js" crossorigin="anonymous"></script>
+</head>
 
 <body>
-    <!--header -->    
+    <!--header -->
     <header>
-        <a href="#"><img src="./images/logo/Booki.png"></a> 
+        <a href="#"><img src="./images/logo/Booki.png" alt="image du logo Booki"></a>
         <nav>
             <ul>
-                <a href="#hebergements"><li>Hébergements</li></a>
-                <a href="#activity"><li>Activitées</li></a>
+                <li><a href="#hebergements">Hébergements</a></li>
+                <li><a href="#activity">Activités</a></li>
             </ul>
         </nav>
     </header>
@@ -32,63 +35,67 @@
             <p>En plein centre ville ou en pleine nature</p>
 
             <form class="formulaire">
-                
-                 <p><i class="fa-solid fa-location-dot"></i></p>
-                 <input type="text" placeholder="Marseille, France">
-                 <input class="rechercher" type="submit" value="Rechercher">
-                 
+
+                <p><i class="fa-solid fa-location-dot"></i></p>
+                <input type="text" placeholder="Marseille, France">
+                <button class="rechercher">Rechercher</button>
+                <button class="loupe"><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></button>
             </form>
 
             <div class="filtre">
                 <h3>Filtres</h3>
                 <div class="Eco"><a href="#"><i class="fa-solid fa-money-bill-wave"></i>
-                                <h3 class="nomfiltre">Economique</h3>
-                                </a> 
+                        <h3 class="nomfiltre">Economique</h3>
+                    </a>
                 </div>
-                                   
-                <div class="Eco"><a href="#"><i class="fa-solid fa-child-reaching" ></i>
-                                <h3 class="nomfiltre">Familial</h3> 
-                             </a> 
-                            </div> 
-                
+
+                <div class="Eco"><a href="#"><i class="fa-solid fa-child-reaching"></i>
+                        <h3 class="nomfiltre">Familial</h3>
+                    </a>
+                </div>
+
                 <div class="Eco"><a href="#"><i class="fa-solid fa-heart "></i>
-                                <h3 class="nomfiltre">Romantique</h3>
-                            </a> 
-                            </div> 
-                           
+                        <h3 class="nomfiltre">Romantique</h3>
+                    </a>
+                </div>
+
                 <div class="Eco"><a href="#"><i class="fa-solid fa-dog "></i>
-                                <h3 class="nomfiltre">Animaux autorisés</h3>
-                               </a>    
-                            </div> 
-                               
+                        <h3 class="nomfiltre">Animaux autorisés</h3>
+                    </a>
+                </div>
+
             </div>
 
 
-        <div class="information">
-            <i class="fa-solid fa-info"></i> 
-            <p>Plus de 500 logements sont disponibles dans cette ville</p>
-        </div>   
+            <div class="information">
+                <i class="fa-solid fa-info"></i>
+                <p>Plus de 500 logements sont disponibles dans cette ville</p>
             </div>
+
 
         </section>
-<!-- end first part-->
+        <!-- end first part-->
 
 
-<!-- second part section2/aside-->
+        <!-- second part section2/aside-->
         <section class="annonces">
 
-            <section id="hebergements">
-                         
+            <div id="hebergements">
+
                 <h2>Hébergements à Marseille</h2>
 
-                 <!--first ranger de card -->
-                    <div class="lign">
-                          <!--card1-->
-                        <div class="card">
-                          <a href="#">
-                            <img class="large" src="./images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg"  alt="photo d'une chambre contenant des lits superposés">
-                            <img class="medium" src="./images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg"  alt="photo d'une chambre contenant des lits superposés">
-                            <img class="small" src="./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"  alt="photo d'une chambre contenant des lits superposés">
+                <!--first ranger de card -->
+                <div class="lign">
+                    <!--card1-->
+                    <div class="card">
+                        <a href="#">
+                            <img class="large" src="./images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                                alt="photo d'une chambre contenant des lits superposés">
+                            <img class="medium"
+                                src="./images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                                alt="photo d'une chambre contenant des lits superposés">
+                            <img class="small" src="./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                                alt="photo d'une chambre contenant des lits superposés">
                             <div class="card-body">
                                 <div class="card-title">
                                     <h4>Auberge la Cannebière</h4>
@@ -103,21 +110,25 @@
                                     <i class="fa-solid fa-star" style="color:#0065FC;"></i>
                                     <i class="fa-solid fa-star" style="color:#f2f2f2;"></i>
                                 </div>
-                            </div> 
-                         </a>     
-                        </div>
-    <!-- end card1 -->
- <!-- card2 -->                            
-                        <div class="card">
-                          <a href="#">  
-                            <img class="large" src="./images/hebergements/2_large/fred-kleber-gTbaxaVLvsg-unsplash.jpg"  alt="photo d'une chambre contenant des lits superposés">
-                            <img class="medium" src="./images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg"  alt="photo d'une chambre contenant des lits superposés">
-                            <img class="small" src="./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"  alt="photo d'une chambre contenant des lits superposés">
+                            </div>
+                        </a>
+                    </div>
+                    <!-- end card1 -->
+                    <!-- card2 -->
+                    <div class="card">
+                        <a href="#">
+                            <img class="large" src="./images/hebergements/2_large/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+                                alt="photo d'une chambre contenant des lits côte à côte">
+                            <img class="medium"
+                                src="./images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+                                alt="photo d'une chambre contenant des lits côte à côte">
+                            <img class="small" src="./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+                                alt="photo d'une chambre contenant des lits côte à côte">
                             <div class="card-body">
                                 <div class="card-title">
                                     <h4>Hôtel du port</h4>
-                                </div> 
-                                <div class="card-price">  
+                                </div>
+                                <div class="card-price">
                                     <p>Nuit à partir de 52<strong>€</strong></p>
                                 </div>
                                 <div class="card-stars">
@@ -128,22 +139,25 @@
                                     <i class="fa-solid fa-star" style="color:#0065FC;"></i>
                                 </div>
                             </div>
-                          </a>      
-                        </div>
-<!-- end card2 -->
-<!--card3-->
-                        <div class="card">
-                          <a href="#">  
-                            <img class="large" src="./images/hebergements/2_large/reisetopia-B8WIgxA_PFU-unsplash.jpg"  alt="photo d'une chambre contenant des lits superposés">
-                            <img class="medium" src="./images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg"  alt="photo d'une chambre contenant des lits superposés">
-                            <img class="small" src="./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"  alt="photo d'une chambre contenant des lits superposés">
+                        </a>
+                    </div>
+                    <!-- end card2 -->
+                    <!--card3-->
+                    <div class="card">
+                        <a href="#">
+                            <img class="large" src="./images/hebergements/2_large/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+                                alt="photo d'une chambre contenant un lit double et une penderie munie d'un miroir">
+                            <img class="medium" src="./images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+                                alt="photo d'une chambre contenant un lit double et une penderie munie d'un miroir">
+                            <img class="small" src="./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+                                alt="photo d'une chambre contenant un lit double et une penderie munie d'un miroir">
                             <div class="card-body">
                                 <div class="card-title">
-                                   <h4>Hôtel les mouettes</h4>
+                                    <h4>Hôtel les mouettes</h4>
                                 </div>
-                                <div class="card-price">  
+                                <div class="card-price">
                                     <p>Nuit à partir de 76<strong>€</strong></p>
-                                </div>    
+                                </div>
                                 <div class="card-stars">
                                     <i class="fa-solid fa-star" style="color:#0065FC;"></i>
                                     <i class="fa-solid fa-star" style="color:#0065FC;"></i>
@@ -151,28 +165,32 @@
                                     <i class="fa-solid fa-star" style="color:#0065FC;"></i>
                                     <i class="fa-solid fa-star" style="color:#f2f2f2;"></i>
                                 </div>
-                            </div> 
-                           </a>    
-                        </div>
-<!--end card3  -->
-                    </div> 
-                    
-            <!-- end first ranger de card -->
-            <!-- 2ème ranger de card -->
-                    <div class="lign">
-    <!--4eme card-->
-                        <div class="card">
-                         <a href="#">  
-                            <img class="large" src="./images/hebergements/2_large/annie-spratt-Eg1qcIitAuA-unsplash.jpg"  alt="photo d'une chambre contenant des lits superposés">
-                            <img class="medium" src="./images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg"  alt="photo d'une chambre contenant des lits superposés">
-                            <img class="small" src="./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"  alt="photo d'une chambre contenant des lits superposés">
+                            </div>
+                        </a>
+                    </div>
+                    <!--end card3  -->
+                </div>
+
+                <!-- end first ranger de card -->
+                <!-- 2ème ranger de card -->
+                <div class="lign">
+                    <!--4eme card-->
+                    <div class="card">
+                        <a href="#">
+                            <img class="large" src="./images/hebergements/2_large/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+                                alt="photo d'une chambre contenant un lit double avec un tableu au dessus du lit">
+                            <img class="medium"
+                                src="./images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+                                alt="photo d'une chambre contenant un lit double avec un tableu au dessus du lit">
+                            <img class="small" src="./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+                                alt="photo d'une chambre contenant un lit double avec un tableu au dessus du lit">
                             <div class="card-body">
                                 <div class="card-title">
-                                  <h4>Hôtel de la mer</h4>
-                                </div> 
-                                <div class="card-price">  
+                                    <h4>Hôtel de la mer</h4>
+                                </div>
+                                <div class="card-price">
                                     <p>Nuit à partir de 46<strong>€</strong></p>
-                                </div>    
+                                </div>
                                 <div class="card-stars">
                                     <i class="fa-solid fa-star" style="color:#0065FC;"></i>
                                     <i class="fa-solid fa-star" style="color:#0065FC;"></i>
@@ -180,21 +198,24 @@
                                     <i class="fa-solid fa-star" style="color:#f2f2f2;"></i>
                                     <i class="fa-solid fa-star" style="color:#f2f2f2;"></i>
                                 </div>
-                            </div> 
-                          </a>     
-                        </div>
-<!-- end 4eme card-->
-                    <!-- 5ème card-->                        
-                        <div class="card">
-                         <a href="#">  
-                            <img class="large" src="./images/hebergements/2_large/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"  alt="photo d'une chambre contenant des lits superposés">
-                            <img class="medium" src="./images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"  alt="photo d'une chambre contenant des lits superposés">
-                            <img class="small" src="./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"  alt="photo d'une chambre contenant des lits superposés">
+                            </div>
+                        </a>
+                    </div>
+                    <!-- end 4eme card-->
+                    <!-- 5ème card-->
+                    <div class="card">
+                        <a href="#">
+                            <img class="large" src="./images/hebergements/2_large/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+                                alt="photo d'une chambre contenant plusieurs lits superposés">
+                            <img class="medium" src="./images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+                                alt="photo d'une chambre contenant plusieurs lits superposés">
+                            <img class="small" src="./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+                                alt="photo d'une chambre contenant des plusieurs superposés">
                             <div class="card-body">
                                 <div class="card-title">
                                     <h4>Auberge le Panier</h4>
                                 </div>
-                                <div class="card-price">    
+                                <div class="card-price">
                                     <p>Nuit à partir de <strong>23€</strong></p>
                                 </div>
                                 <div class="card-stars">
@@ -204,24 +225,30 @@
                                     <i class="fa-solid fa-star" style="color:#0065FC;"></i>
                                     <i class="fa-solid fa-star" style="color:#f2f2f2;"></i>
                                 </div>
-                            </div> 
-                         </a>    
-                        </div>
-<!--end 5ème card  -->
-                        <!-- card 6 -->                        
-                        <div class="card">
-                          <a href="#"> 
-                            <img class="large" src="./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"  alt="photo d'une chambre contenant des lits superposés">
-                            <img class="medium" src="./images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"  alt="photo d'une chambre contenant des lits superposés">
-                            <img class="small" src="./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"  alt="photo d'une chambre contenant des lits superposés">
-                            
+                            </div>
+                        </a>
+                    </div>
+                    <!--end 5ème card  -->
+                    <!-- card 6 -->
+                    <div class="card">
+                        <a href="#">
+                            <img class="large"
+                                src="./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+                                alt="photo d'une chambre contenant un lit double, un bureau et une tv">
+                            <img class="medium"
+                                src="./images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+                                alt="photo d'une chambre contenant un lit double, un bureau et une tv">
+                            <img class="small"
+                                src="./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+                                alt="photo d'une chambre contenant un lit double, un bureau et une tv">
+
                             <div class="card-body">
                                 <div class="card-title">
                                     <h4>Hôtel chez Amina</h4>
-                                </div> 
-                                <div class="card-price">  
+                                </div>
+                                <div class="card-price">
                                     <p>Nuit à partir de 96<strong>€</strong></p>
-                                </div>    
+                                </div>
                                 <div class="card-stars">
                                     <i class="fa-solid fa-star" style="color:#0065FC;"></i>
                                     <i class="fa-solid fa-star" style="color:#0065FC;"></i>
@@ -229,231 +256,268 @@
                                     <i class="fa-solid fa-star" style="color:#0065FC;"></i>
                                     <i class="fa-solid fa-star" style="color:#0065FC;"></i>
                                 </div>
-                            </div> 
-                          </a>     
-                        </div>
-<!-- end card 6 -->
-                    </div>
-<!-- end 2 ranger de card -->
-<a href="#"><p><strong>Afficher plus</strong></p></a>   
-        </section>
-                         <!-- end section Marseille -->
-
-
-                                            <!-- aside -->
-        <aside>
-    <!-- titre les plus populaires -->
-    <div class="pop">
-        <h2>Les plus populaires</h2>
-        <i class="fa-solid fa-star"></i>
-    </div>
-                         
-    <div class="populary">  
-       <!--card1  -->
-       <a href="#"><div class="cardpop">
-               
-                  <img class="large" src="./images/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"  alt="photo d'une chambre contenant des lits superposés">
-                  <img class="medium" src="./images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"  alt="photo d'une chambre contenant des lits superposés">
-                  <img class="small" src="./images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"  alt="photo d'une chambre contenant des lits superposés">
-                    <div class="card-body">
-                      <div class="firsttitle">
-                        <div class="card-title">
-                            <h4>Hôtel le soleil du matin</h4>
                             </div>
-                        <div class="card-price">
-                          <p>Nuit à partir de 128<strong>€</strong></p>
+                        </a>
+                    </div>
+                    <!-- end card 6 -->
+                </div>
+                <!-- end 2 ranger de card -->
+                <a href="#">
+                    <p><strong>Afficher plus</strong></p>
+                </a>
+            </div>
+            <!-- end section Marseille -->
+
+
+            <!-- aside -->
+            <aside>
+                <!-- titre les plus populaires -->
+                <div class="pop">
+                    <h2>Les plus populaires</h2>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+
+                <div class="populary">
+                    <!--card1  -->
+                    <a href="#">
+                        <div class="cardpop">
+
+                            <img class="large"
+                                src="./images/hebergements/2_large/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                                alt="photo d'une chambre joliement décorée contenant un lit double avec un miroir au dessus du lit">
+                            <img class="medium"
+                                src="./images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                                alt="photo d'une chambre joliement décorée contenant un lit double avec un miroir au dessus du lit">
+                            <img class="small"
+                                src="./images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                                alt="photo d'une chambre joliement décorée contenant un lit double avec un miroir au dessus du lit">
+                            <div class="card-body">
+                                <div class="firsttitle">
+                                    <div class="card-title">
+                                        <h4>Hôtel le soleil du matin</h4>
+                                    </div>
+                                    <div class="card-price">
+                                        <p>Nuit à partir de 128<strong>€</strong></p>
+                                    </div>
+                                </div>
+                                <div class="card-stars">
+                                    <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                                    <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                                    <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                                    <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                                    <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                                </div>
+                            </div>
+
                         </div>
-                      </div>
-                      <div class="card-stars">
-                          <i class="fa-solid fa-star" style="color:#0065FC;"></i>
-                          <i class="fa-solid fa-star" style="color:#0065FC;"></i>
-                          <i class="fa-solid fa-star" style="color:#0065FC;"></i>
-                          <i class="fa-solid fa-star" style="color:#0065FC;"></i>
-                          <i class="fa-solid fa-star" style="color:#0065FC;"></i>
-                      </div>
-                  </div> 
-                  
-              </div>
-        </a>  
-        
-        <!-- end card1 -->
-        <!-- card2 -->
-        <a href="#"><div class="cardpop">
-               
-            <img class="large" src="./images/hebergements/2_large/aw-creative-VGs8z60yT2c-unsplash.jpg"  alt="photo d'une chambre contenant des lits superposés">
-            <img class="medium" src="./images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg"  alt="photo d'une chambre contenant des lits superposés">
-            <img class="small" src="./images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"  alt="photo d'une chambre contenant des lits superposés">
-              <div class="card-body">
-                <div class="firsttitle">
-                  <div class="card-title">
-                      <h4>Au coeur de l'eau Chambre d'hôtes</h4>
-                      </div>
-                  <div class="card-price">
-                    <p>Nuit à partir de 71<strong>€</strong></p>
-                  </div>
+                    </a>
+
+                    <!-- end card1 -->
+                    <!-- card2 -->
+                    <a href="#">
+                        <div class="cardpop">
+
+                            <img class="large" src="./images/hebergements/2_large/aw-creative-VGs8z60yT2c-unsplash.jpg"
+                                alt="photo d'une suite spacieuse contenant un lit double avec une mezzanine">
+                            <img class="medium"
+                                src="./images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg"
+                                alt="photo d'une suite spacieuse contenant un lit double avec une mezzanine">
+                            <img class="small" src="./images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
+                                alt="photo d'une suite spacieuse contenant un lit double avec une mezzanine">
+                            <div class="card-body">
+                                <div class="firsttitle">
+                                    <div class="card-title">
+                                        <h4>Au coeur de l'eau Chambre d'hôtes</h4>
+                                    </div>
+                                    <div class="card-price">
+                                        <p>Nuit à partir de 71<strong>€</strong></p>
+                                    </div>
+                                </div>
+                                <div class="card-stars">
+                                    <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                                    <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                                    <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                                    <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                                    <i class="fa-solid fa-star" style="color:#f2f2f2;"></i>
+                                </div>
+                            </div>
+
+                        </div>
+                    </a>
+                    <!-- endcard2 -->
+                    <!-- card3 -->
+                    <a href="#">
+                        <div class="cardpop">
+
+                            <img class="large"
+                                src="./images/hebergements/2_large/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+                                alt="photo d'une chambre contenant un lit double ">
+                            <img class="medium"
+                                src="./images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+                                alt="photo d'une chambre contenant un lit double ">
+                            <img class="small"
+                                src="./images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+                                alt="photo d'une chambre contenant un lit double ">
+                            <div class="card-body">
+                                <div class="firsttitle">
+                                    <div class="card-title">
+                                        <h4>Hôtel Tout bleu et Blanc</h4>
+                                    </div>
+                                    <div class="card-price">
+                                        <p>Nuit à partir de 68<strong>€</strong></p>
+                                    </div>
+                                </div>
+                                <div class="card-stars">
+                                    <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                                    <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                                    <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                                    <i class="fa-solid fa-star" style="color:#0065FC;"></i>
+                                    <i class="fa-solid fa-star" style="color:#f2f2f2;"></i>
+                                </div>
+                            </div>
+
+                        </div>
+                    </a>
                 </div>
-                <div class="card-stars">
-                    <i class="fa-solid fa-star" style="color:#0065FC;"></i>
-                    <i class="fa-solid fa-star" style="color:#0065FC;"></i>
-                    <i class="fa-solid fa-star" style="color:#0065FC;"></i>
-                    <i class="fa-solid fa-star" style="color:#0065FC;"></i>
-                    <i class="fa-solid fa-star" style="color:#f2f2f2;"></i>
-                </div>
-            </div> 
-            
-        </div>
-  </a>  
-<!-- endcard2 -->
-<!-- card3 -->
-<a href="#"><div class="cardpop">
-               
-    <img class="large" src="./images/hebergements/2_large/febrian-zakaria-sjvU0THccQA-unsplash.jpg"  alt="photo d'une chambre contenant des lits superposés">
-    <img class="medium" src="./images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg"  alt="photo d'une chambre contenant des lits superposés">
-    <img class="small" src="./images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"  alt="photo d'une chambre contenant des lits superposés">
-    <div class="card-body">
-        <div class="firsttitle">
-          <div class="card-title">
-              <h4>Hôtel Tout bleu et Blanc</h4>
-              </div>
-          <div class="card-price">
-            <p>Nuit à partir de 68<strong>€</strong></p>
-          </div>
-        </div>
-        <div class="card-stars">
-            <i class="fa-solid fa-star" style="color:#0065FC;"></i>
-            <i class="fa-solid fa-star" style="color:#0065FC;"></i>
-            <i class="fa-solid fa-star" style="color:#0065FC;"></i>
-            <i class="fa-solid fa-star" style="color:#0065FC;"></i>
-            <i class="fa-solid fa-star" style="color:#f2f2f2;"></i>
-        </div>
-    </div> 
-    
-</div>
-</a> 
-</div>   
- </aside>
-</section>
-<!-- end card3 -->
-                                        <!-- end asid -->
-                                    <!-- end section annonces-->
-                                    <!-- third part activity-->
+            </aside>
+        </section>
+        <!-- end card3 -->
+        <!-- end asid -->
+        <!-- end section annonces-->
+        <!-- third part activity-->
 
         <section id="activity">
-                <h2>Activités à Marseille</h2>
-          <!--contenair flex -->
-                    <div class="bloc">
-                        <!-- card3-1 -->
-                            <div class="cardport"><a href="#">
-                                            <div class="card-img"><img class="large" src="./images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="photo des bateaux du vieux port"></div>
-                                                                  <img class="medium" src="./images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"  alt="photo d'une chambre contenant des lits superposés">
-                                                                  <img class="small" src="./images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"  alt="photo d'une chambre contenant des lits superposés">
-                                            <div class="cardtitle"><h4>Vieux Port</h4></div> 
-                                        </a></div> 
+            <h2>Activités à Marseille</h2>
+            <!--contenair flex -->
+            <div class="bloc">
+                <!-- card3-1 -->
+                <div class="cardport"><a href="#">
+                        <div class="card-img"><img class="large"
+                                src="./images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+                                alt="photo des bateaux du vieux port de Marseille"></div>
+                        <img class="medium" src="./images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+                            alt="photo des bateaux du vieux port de Marseille">
+                        <img class="small" src="./images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+                            alt="photo des bateaux du vieux port de Marseille">
+                        <div class="cardtitle">
+                            <h4>Vieux Port</h4>
+                        </div>
+                    </a></div>
 
-                        <!-- end card3-1 -->
-                        <!-- card3-2 et card3-3-->
-                        <div class="carduo">
-                                <div class="fort"><a href="#">
-                                    <div class="card-img"><img class="large" src="./images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="photo du fort"></div>
-                                                          <img class="medium" src="./images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg"  alt="photo d'une chambre contenant des lits superposés">
-                                                          <img class="small" src="./images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"  alt="photo d'une chambre contenant des lits superposés">
-                                    <div class="cardtitle"><h4>Fort de Pomègues</h4></div> 
-                                </a></div> 
+                <!-- end card3-1 -->
+                <!-- card3-2 et card3-3-->
+                <div class="carduo">
+                    <div class="fort"><a href="#">
+                            <div class="card-img"><img class="large"
+                                    src="./images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+                                    alt="photo du fort de Pomègues"></div>
+                            <img class="medium" src="./images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+                                alt="photo du fort de Pomègues">
+                            <img class="small" src="./images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+                                alt="photo du fort de Pomègues">
+                            <div class="cardtitle">
+                                <h4>Fort de Pomègues</h4>
+                            </div>
+                        </a></div>
 
-                                <div class="frioul"><a href="#">
-                                    <div class="card-img"><img class="large" src="./images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="photo de l'ile de Frioul au loin"></div>
-                                                          <img class="medium" src="./images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"  alt="photo d'une chambre contenant des lits superposés">
-                                                          <img class="small" src="./images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"  alt="photo d'une chambre contenant des lits superposés">
-                                    <div class="cardtitle"><h4>île de Frioul</h4></div> 
-                                </a></div> 
-                       </div>
-<!-- end card3-2 et 3-3 -->
-                        <!-- card3-4 -->
-                        <div class="cardport"><a href="#">
-                            <div class="card-img"><img class="large" src="./images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="photo prise du haut du Parc Nationnal des calanques vue sur la mer"></div>
-                                                  <img class="medium" src="./images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"  alt="photo d'une chambre contenant des lits superposés">
-                                                  <img class="small" src="./images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"  alt="photo d'une chambre contenant des lits superposés">
-                            <div class="cardtitle"><h4>Parc Nationnal des Calanques</h4></div> 
-                        </a></div>     
-                        <!-- end card3-4 -->
-<!-- card3-5 et 3-6-->
-                         <div class="carduo">
-                                <div class="dame"><a href="#">
-                                    <div class="card-img"><img class="large" src="./images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="photo de Notre Dame de La Garde prise du bas dans un village"></div>
-                                                          <img class="medium" src="./images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"  alt="photo d'une chambre contenant des lits superposés">
-                                                          <img class="small" src="./images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"  alt="photo d'une chambre contenant des lits superposés">
-                                    <div class="cardtitle"><h4>Notre-Dame-de-la-Garde</h4></div> 
-                                </a></div> 
+                    <div class="frioul"><a href="#">
+                            <div class="card-img"><img class="large"
+                                    src="./images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+                                    alt="photo de l'ile de Frioul au loin"></div>
+                            <img class="medium" src="./images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+                                alt="photo de l'ile de Frioul au loin">
+                            <img class="small" src="./images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+                                alt="photo de l'ile de Frioul au loin">
+                            <div class="cardtitle">
+                                <h4>île de Frioul</h4>
+                            </div>
+                        </a></div>
+                </div>
+                <!-- end card3-2 et 3-3 -->
+                <!-- card3-4 -->
+                <div class="cardport"><a href="#">
+                        <div class="card-img"><img class="large"
+                                src="./images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+                                alt="photo prise du haut du Parc Nationnal des calanques vue sur la mer"></div>
+                        <img class="medium"
+                            src="./images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+                            alt="photo prise du haut du Parc Nationnal des calanques vue sur la mer">
+                        <img class="small" src="./images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+                            alt="photo prise du haut du Parc Nationnal des calanques vue sur la mer">
+                        <div class="cardtitle">
+                            <h4>Parc Nationnal des Calanques</h4>
+                        </div>
+                    </a></div>
+                <!-- end card3-4 -->
+                <!-- card3-5 et 3-6-->
+                <div class="carduo">
+                    <div class="dame"><a href="#">
+                            <div class="card-img"><img class="large"
+                                    src="./images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                                    alt="photo de Notre Dame de La Garde prise du bas dans un village"></div>
+                            <img class="medium" src="./images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                                alt="photo de Notre Dame de La Garde prise du bas dans un village">
+                            <img class="small" src="./images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                                alt="photo de Notre Dame de La Garde prise du bas dans un village">
+                            <div class="cardtitle">
+                                <h4>Notre-Dame-de-la-Garde</h4>
+                            </div>
+                        </a></div>
 
-                                <div class="parc"><a href="#">
-                                    <div class="card-img"><img class="large" src="./images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="photo du Parc Longchamp prise de la cours du Parc"></div>
-                                                          <img class="medium" src="./images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg"  alt="photo d'une chambre contenant des lits superposés">
-                                                          <img class="small" src="./images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"  alt="photo d'une chambre contenant des lits superposés">
-                                    <div class="cardtitle"><h4>Parc Longchamp</h4></div> 
-                                </a></div> 
-                       </div>   
-<!-- end card3-5 et 3-6-->
-                     </div>
-                     <!-- end bloc -->
-         </section>
-                            <!-- end part third section activity -->
- </main>  
+                    <div class="parc"><a href="#">
+                            <div class="card-img"><img class="large"
+                                    src="./images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
+                                    alt="photo du Parc Longchamp prise de la cours du Parc"></div>
+                            <img class="medium" src="./images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
+                                alt="photo du Parc Longchamp prise de la cours du Parc">
+                            <img class="small" src="./images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
+                                alt="photo du Parc Longchamp prise de la cours du Parc">
+                            <div class="cardtitle">
+                                <h4>Parc Longchamp</h4>
+                            </div>
+                        </a></div>
+                </div>
+                <!-- end card3-5 et 3-6-->
+            </div>
+            <!-- end bloc -->
+        </section>
+        <!-- end part third section activity -->
+    </main>
     <!-- end Main -->
-    
-                                                <!-- footer -->
-    <footer> 
-         <!--about -->
-         <div class="about">
-             <h3>A propos</h3>
-             <ul>
-                <a href="#"><li>Fonctionnement du site</li></a>
-                <a href="#"><li>Conditions générales de vente</li></a>
-                <a href="#"><li>Données et confidentialité</li></a>
-             </ul>
-         </div>
-<!--end about -->
-<!--hebergements-->
-         <div class="nosheber">
-            <h3>Nos hébergements</h3>
+
+    <!-- footer -->
+    <footer>
+        <!--about -->
+        <div class="about">
+            <h3>A propos</h3>
             <ul>
-               <a href="#"><li>Charte de qualité</li></a>
-               <a href="#"><li>Soumettre votre hôtel</li></a>
+                <li><a href="#">Fonctionnement du site</a></li>
+                <li><a href="#">Conditions générales de vente</a></li>
+                <li><a href="#">Données et confidentialité</a></li>
             </ul>
         </div>
-<!--fin hebergements-->
-<!--assistance-->
-<div class="assist">
-    <h3>Assistance</h3>
-    <ul>
-       <a href="#"><li>Centre d'aide</li></a>
-       <a href="#"><li>Nous contacter</li></a>
-    </ul>
-</div>
+        <!--end about -->
+        <!--hebergements-->
+        <div class="nosheber">
+            <h3>Nos hébergements</h3>
+            <ul>
+                <li><a href="#">Charte de qualité</a></li>
+                <li><a href="#">Soumettre votre hôtel</a></li>
+            </ul>
+        </div>
+        <!--fin hebergements-->
+        <!--assistance-->
+        <div class="assist">
+            <h3>Assistance</h3>
+            <ul>
+                <li><a href="#">Centre d'aide</a></li>
+                <li><a href="#">Nous contacter</a></li>
+            </ul>
+        </div>
 
-<!--fin assistance--> 
-    </footer>                                                 
-                                <!-- fin footer -->
-
-
-
-
-
-
-
+        <!--fin assistance-->
+    </footer>
+    <!-- fin footer -->
 </body>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 </html>
-
